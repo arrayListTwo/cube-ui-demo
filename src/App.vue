@@ -26,6 +26,20 @@
       <router-link to="/Textarea">Textarea</router-link>
       |
       <router-link to="/Select">Select</router-link>
+      |
+      <router-link to="/Rate">Rate</router-link>
+      |
+      <router-link to="/Validator">Validator</router-link>
+      |
+      <router-link to="/Upload">Upload</router-link>
+      |
+      <router-link to="/FormStandard">FormStandard</router-link>
+      |
+      <router-link to="/FormCustom">FormCustom</router-link>
+      |
+      <router-link to="/Popup">Popup</router-link>
+      |
+      <router-link to="/Picker">Picker</router-link>
     </div>
     <router-view/>
   </div>

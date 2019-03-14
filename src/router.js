@@ -13,6 +13,13 @@ import CheckerDemo from '@/components/checker-demo/checker-demo'
 import InputDemo from '@/components/input-demo/input-demo'
 import TextareaDemo from '@/components/textarea-demo/textarea-demo'
 import SelectDemo from '@/components/select-demo/select-demo'
+import RateDemo from '@/components/rate-demo/rate-demo'
+import ValidatorDemo from '@/components/validator-demo/validator-demo'
+import UploadDemo from '@/components/upload-demo/upload-demo'
+import FormStandardDemo from '@/components/form-standard-demo/form-standard-demo'
+import FormCustomDemo from '@/components/form-custom-demo/form-custom-demo'
+import PopupDemo from '@/components/popup-demo/popup-demo'
+import PickerDemo from '@/components/picker-demo/picker-demo'
 
 Vue.use(Router)
 
@@ -85,6 +92,34 @@ export default new Router({
       path: '/Select',
       name: 'Select',
       component: SelectDemo
+    }, {
+      path: '/Rate',
+      name: 'Rate',
+      component: RateDemo
+    }, {
+      path: '/Validator',
+      name: 'Validator',
+      component: ValidatorDemo
+    }, {
+      path: '/Upload',
+      name: 'Upload',
+      component: UploadDemo
+    }, {
+      path: '/FormStandard',
+      name: 'FormStandard',
+      component: FormStandardDemo
+    }, {
+      path: '/FormCustom',
+      name: 'FormCustom',
+      component: FormCustomDemo
+    }, {
+      path: '/Popup',
+      name: 'Popup',
+      component: PopupDemo
+    }, {
+      path: '/Picker',
+      name: 'Picker',
+      component: PickerDemo
     }
   ]
 })
