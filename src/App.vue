@@ -40,8 +40,20 @@
       <router-link to="/Popup">Popup</router-link>
       |
       <router-link to="/Picker">Picker</router-link>
+      |
+      <router-link to="/TimePicker">TimePicker</router-link>
+      |
+      <router-link to="/ScrollDefault">ScrollDefault</router-link>
+      |
+      <router-link to="/ScrollHorizontal">ScrollHorizontal</router-link>
+      |
+      <router-link to="/JD">JD</router-link>
+      |
+      <router-link to="/SlideVertical">SlideVertical</router-link>
     </div>
-    <router-view/>
+    <div id="router-view">
+      <router-view/>
+    </div>
   </div>
 </template>
 <style lang="stylus" scoped>
@@ -53,13 +65,13 @@
     color #2c3e50
     background: #f2f2f2
 
-  #nav
-    padding 30px
+    #nav
+      padding 30px
 
-    a
-      font-weight bold
-      color #2c3e50
+      a
+        font-weight bold
+        color #2c3e50
 
-      &.router-link-exact-active
-        color #42b983
+        &.router-link-exact-active
+          color #42b983
 </style>

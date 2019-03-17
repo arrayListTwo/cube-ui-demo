@@ -20,6 +20,11 @@ import FormStandardDemo from '@/components/form-standard-demo/form-standard-demo
 import FormCustomDemo from '@/components/form-custom-demo/form-custom-demo'
 import PopupDemo from '@/components/popup-demo/popup-demo'
 import PickerDemo from '@/components/picker-demo/picker-demo'
+import TimePickerDemo from '@/components/time-picker-demo/time-picker-demo'
+import ScrollDefaultDemo from '@/components/scroll-demo/default-demo'
+import ScrollHorizontalDemo from '@/components/scroll-demo/horizontal-demo'
+import JDDemo from '@/components/scroll-demo/jd-demo'
+import SlideVerticalDemo from '@/components/slide-demo/vertical-demo'
 
 Vue.use(Router)
 
@@ -120,6 +125,26 @@ export default new Router({
       path: '/Picker',
       name: 'Picker',
       component: PickerDemo
+    }, {
+      path: '/TimePicker',
+      name: 'TimePicker',
+      component: TimePickerDemo
+    }, {
+      path: '/ScrollDefault',
+      name: 'ScrollDefault',
+      component: ScrollDefaultDemo
+    }, {
+      path: '/ScrollHorizontal',
+      name: 'ScrollHorizontal',
+      component: ScrollHorizontalDemo
+    }, {
+      path: '/JD',
+      name: 'JD',
+      component: JDDemo
+    }, {
+      path: '/SlideVertical',
+      name: 'SlideVertical',
+      component: SlideVerticalDemo
     }
   ]
 })

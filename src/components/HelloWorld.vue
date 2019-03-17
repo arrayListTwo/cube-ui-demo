@@ -19,6 +19,11 @@
     <router-link to="/FormCustom">FormCustom</router-link>
     <router-link to="/Popup">Popup</router-link>
     <router-link to="/Picker">Picker</router-link>
+    <router-link to="/TimePicker">TimePicker</router-link>
+    <router-link to="/ScrollDefault">ScrollDefault</router-link>
+    <router-link to="/ScrollHorizontal">ScrollHorizontal</router-link>
+    <router-link to="/JD">JD</router-link>
+    <router-link to="/SlideVertical">SlideVertical</router-link>
   </div>
 </template>
 
